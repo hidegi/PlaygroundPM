@@ -1,9 +1,0 @@
-*.cbp
-*.layout
-*.log
-*.depend
-*.DS_Store
-methaphor/
-build/
-obj/
-bin/
