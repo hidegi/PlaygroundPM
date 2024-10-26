@@ -1,14 +1,12 @@
-#include <SP/base/surface.h>
+#include <SP/base/application.h>
+#include "PM/pacman.h"
 
 int main(int argc, char** argv)
 {
-	sp::Surface surface;
-	surface.create();
-	while(surface.isRunning())
-	{
-		sp::pollEvents();
-		surface.swapBuffers();
-	}
-	;
-	return 0;
+	sp::WindowConfig config;
+	config.width = 16 * 21;
+	config.height = 16 * 27;
+	config.resizable = false;
+	sp::Application app(config);
+	return app.run<pm::Pacman>();
 }

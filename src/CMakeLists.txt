@@ -1,7 +1,19 @@
 link_libraries(${SP_LIBRARY})
 include_directories(${CMAKE_SOURCE_DIR}/include ${SP_INCLUDE_DIR})
 
-add_executable(pacman main.cpp)
+if(WIN32)
+	set(ICON icon.rc)
+elseif(APPLE)
+
+endif(WIN32)
+
+LIST(APPEND SOURCE_FILES 
+	main.cpp
+	PM/pacman.cpp
+	PM/board.cpp
+	)
+
+add_executable(pacman ${SOURCE_FILES} ${ICON})
 
 if (MSVC)
     set_target_properties(pacman PROPERTIES
