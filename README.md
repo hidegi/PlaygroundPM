@@ -20,7 +20,7 @@ Once you have CMake installed, use the Command-Prompt or Shell to switch to\
 the directory, where this repository is located on your local machine..\
 (You will need to use ```cd```)..
 
-On the Pac-Man folder, run following command:
+On the Pac-Man folder, run following command:\
 ```$ cmake -Bbuild -G"Unix Makefiles" -D SP_LOCATION=[wherever you have the SP-library located]```
 
 You can of course use any CMake-Generator of choice, as well as have any other name for your build-directory..\
