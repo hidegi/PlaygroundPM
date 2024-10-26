@@ -23,4 +23,5 @@ On the Pac-Man folder, run following command:\
 ```$ cmake -Bbuild -G"Unix Makefiles" -D SP_LOCATION=[wherever you have the SP-library located]```
 
 You can of course use any CMake-Generator of choice, as well as have any other name for your build-directory..\
-When the project has been built, you should be able to run the game, located under ```PlaygroundPM/[your-build-directory]/src/pacman.exe```
+When the project has been built, you should be able to run the game, located under\
+```PlaygroundPM/[your-build-directory]/src/pacman.exe```
