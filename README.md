@@ -13,8 +13,7 @@ to get a copy of the SP-library binaries..
 
 ## How to build
 To build this project, you will need to install the CMake CLI-tool,\
-since this is a CMake-project..\
-which you can find under https://cmake.org/..
+since this is a CMake-project, which you can find under https://cmake.org/..
 
 Once you have CMake installed, use the Command-Prompt or Shell to switch to\
 the directory, where this repository is located on your local machine..\
