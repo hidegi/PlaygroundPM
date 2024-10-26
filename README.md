@@ -6,12 +6,12 @@
 This is a remake of the retro-arcade game Pac-Man based on the Simple-Playground (SP) library..\
 However, feel free to explore around and play some old classic retro Pac-Man..
 
-##Dependencies
+## Dependencies
 You will need the Simple-Playground library to build this project..\
 If you haven't obtained the library yet, please ask the repo-owner (that is me, hidegi),\
 to get a copy of the SP-library binaries..
 
-##How to build
+## How to build
 To build this project, you will need to install the CMake CLI-tool,\
 since this is a CMake-project..\
 which you can find under https://cmake.org/..
