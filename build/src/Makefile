@@ -130,6 +130,62 @@ pacman/fast:
 	cd C:/sandbox/PlaygroundPacman/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/pacman.dir/build.make src/CMakeFiles/pacman.dir/build
 .PHONY : pacman/fast
 
+PM/board.obj: PM/board.cpp.obj
+.PHONY : PM/board.obj
+
+# target to build an object file
+PM/board.cpp.obj:
+	cd C:/sandbox/PlaygroundPacman/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/pacman.dir/build.make src/CMakeFiles/pacman.dir/PM/board.cpp.obj
+.PHONY : PM/board.cpp.obj
+
+PM/board.i: PM/board.cpp.i
+.PHONY : PM/board.i
+
+# target to preprocess a source file
+PM/board.cpp.i:
+	cd C:/sandbox/PlaygroundPacman/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/pacman.dir/build.make src/CMakeFiles/pacman.dir/PM/board.cpp.i
+.PHONY : PM/board.cpp.i
+
+PM/board.s: PM/board.cpp.s
+.PHONY : PM/board.s
+
+# target to generate assembly for a file
+PM/board.cpp.s:
+	cd C:/sandbox/PlaygroundPacman/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/pacman.dir/build.make src/CMakeFiles/pacman.dir/PM/board.cpp.s
+.PHONY : PM/board.cpp.s
+
+PM/pacman.obj: PM/pacman.cpp.obj
+.PHONY : PM/pacman.obj
+
+# target to build an object file
+PM/pacman.cpp.obj:
+	cd C:/sandbox/PlaygroundPacman/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/pacman.dir/build.make src/CMakeFiles/pacman.dir/PM/pacman.cpp.obj
+.PHONY : PM/pacman.cpp.obj
+
+PM/pacman.i: PM/pacman.cpp.i
+.PHONY : PM/pacman.i
+
+# target to preprocess a source file
+PM/pacman.cpp.i:
+	cd C:/sandbox/PlaygroundPacman/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/pacman.dir/build.make src/CMakeFiles/pacman.dir/PM/pacman.cpp.i
+.PHONY : PM/pacman.cpp.i
+
+PM/pacman.s: PM/pacman.cpp.s
+.PHONY : PM/pacman.s
+
+# target to generate assembly for a file
+PM/pacman.cpp.s:
+	cd C:/sandbox/PlaygroundPacman/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/pacman.dir/build.make src/CMakeFiles/pacman.dir/PM/pacman.cpp.s
+.PHONY : PM/pacman.cpp.s
+
+icon.obj: icon.rc.obj
+.PHONY : icon.obj
+
+# target to build an object file
+icon.rc.obj:
+	cd C:/sandbox/PlaygroundPacman/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/pacman.dir/build.make src/CMakeFiles/pacman.dir/icon.rc.obj
+.PHONY : icon.rc.obj
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -163,6 +219,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... pacman"
+	@echo "... PM/board.obj"
+	@echo "... PM/board.i"
+	@echo "... PM/board.s"
+	@echo "... PM/pacman.obj"
+	@echo "... PM/pacman.i"
+	@echo "... PM/pacman.s"
+	@echo "... icon.obj"
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"

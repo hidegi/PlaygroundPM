@@ -14,6 +14,10 @@ set(CMAKE_LEGACY_CYGWIN_WIN32 0)
 set(CMAKE_INSTALL_INCLUDEDIR include)
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_SOURCE_DIR}/cmake/modules)
 
+set(SP_WORKSPACE "${CMAKE_SOURCE_DIR}")
+configure_file("${CMAKE_SOURCE_DIR}/include/config.h.in" "${CMAKE_SOURCE_DIR}/include/config.h" ESCAPE_QUOTES)
+
+
 find_package(playground REQUIRED 1.0.0)
 add_subdirectory(src)
 
@@ -25,5 +29,4 @@ set_target_properties(
 	C_STANDARD_REQUIRED ON
 	VERSION ${pacman_VERSION}
 	SOVERSION ${pacman_VERSION}
-	)  
-	
+	)
