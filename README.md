@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="assets/cherry_icon.ico" width="128" height="128">
+  <img src="assets/cherry_icon.png" width="128" height="128">
 </p>
 
 ## Pac-Man Game (remastered)
