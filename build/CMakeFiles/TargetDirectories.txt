@@ -1,0 +1,5 @@
+C:/sandbox/PlaygroundPacman/build/CMakeFiles/edit_cache.dir
+C:/sandbox/PlaygroundPacman/build/CMakeFiles/rebuild_cache.dir
+C:/sandbox/PlaygroundPacman/build/src/CMakeFiles/rebuild_cache.dir
+C:/sandbox/PlaygroundPacman/build/src/CMakeFiles/pacman.dir
+C:/sandbox/PlaygroundPacman/build/src/CMakeFiles/edit_cache.dir
