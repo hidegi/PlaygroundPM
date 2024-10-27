@@ -12,7 +12,8 @@ namespace pm
 	{
 		public:
 			Board();
-			
+		   ~Board();
+		   
 			bool loadFromFile(const char* path);
 			bool loadFromFile(const std::string& path);
 			bool loadFromMemory(const void* data, SPsize length);
@@ -25,7 +26,8 @@ namespace pm
 				sp::vec2i texCoords;
 			};
 			
-			const sp::Texture& getLevelTexture();
+			sp::vec2u getSize() const;
+			const sp::Texture* getLevelTexture() const;
 			
 		private:
 			// initializer..
@@ -50,7 +52,7 @@ namespace pm
 			};
 			
 			// draw function to render to an offscreen texture..
-			Level* render(SPuint8* map);
+			void render(Level* level);
 		
 			// the binary tree strucutre..
 			sp::NBT m_tree;
@@ -63,7 +65,7 @@ namespace pm
 			
 			// the level array..
 			std::vector<Level*> m_levels;
-			
+			SPindex m_current_level;
 	};
 }
 #endif
