@@ -13,7 +13,7 @@ LIST(APPEND SOURCE_FILES
 	PM/board.cpp
 	)
 
-add_executable(pacman ${SOURCE_FILES} ${ICON})
+add_executable(pacman WIN32 ${SOURCE_FILES} ${ICON})
 
 if (MSVC)
     set_target_properties(pacman PROPERTIES
